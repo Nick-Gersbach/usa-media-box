@@ -54,6 +54,10 @@ Home Showcase
   display: none;
 }
 
+.mobile-logo {
+  display: none;
+}
+
 .fa-bars {
   color: white;
 }
@@ -716,6 +720,10 @@ Media Queries
     top: 15px;
     right: 40px;
 
+  }
+
+  .mobile-logo {
+    display: block;
   }
 
   nav {
