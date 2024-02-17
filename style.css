@@ -556,6 +556,89 @@ Downloads
 
 
 
+
+
+Products Pages
+
+
+
+
+
+
+*/
+
+#product-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7rem 0rem;
+}
+
+.product-overview-img-container {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  width: 600px;
+  height: 400px;
+}
+
+.product-main-img {
+  width: 400px;
+  height: 400px;
+  padding-bottom: 3rem;
+}
+
+.product-overview-text {
+  margin-left: 7rem;
+}
+
+.orange-product-text {
+  font-size: 14px;
+  font-weight: 200;
+  color: #D87D4A;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.h2-product-heading {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.main-product-description {
+  font-size: medium;
+  line-height: 1.7;
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.product-price {
+  font-size: 18;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.product-buy-btn {
+  background-color: #D87D4A;
+  width: 160px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: opacity .2s ease-in;
+  letter-spacing: 2px;
+}
+
+/* 
+
+
+
 Footer
 
 
@@ -950,6 +1033,27 @@ Media Queries
     width: 270px;
   }
 
+  #product-overview {
+    flex-direction: column;
+    margin: 5rem 0rem;
+  }
+
+  .product-overview-img-container {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .product-main-img {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .product-overview-text {
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+
 }
 
 @media(max-width: 600px) {
@@ -1075,6 +1179,11 @@ Media Queries
     width: 100%;
   }
 
+  .legal-disclaimer {
+
+    width: 80%;
+  }
+
 }
 
 @media(max-width: 500px) {
@@ -1106,7 +1215,15 @@ Media Queries
   }
 
   .header-h1 {
-    font-size: 40px;
+    font-size: 36px;
+  }
+
+  #product-overview {
+    margin: 4rem 0rem;
+  }
+
+  .main-product-description {
+    width: 95%;
   }
 
 }
