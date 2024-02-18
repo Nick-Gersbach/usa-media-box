@@ -684,6 +684,13 @@ Products Pages
   margin-right: 4rem;
 }
 
+.products-link a {
+  padding: 1rem;
+  background-color: #D87D4A;
+  color: white;
+  font-weight: 700;
+}
+
 /* 
 
 
